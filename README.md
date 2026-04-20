@@ -1,16 +1,68 @@
-# React + Vite
+# 🔐 Secure Auth Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack SaaS authentication and security dashboard built using React and Firebase.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🔐 Google & Email Authentication (Firebase)
+* 🔄 Password Reset & Email Verification
+* 📊 Real-time Security Dashboard
+* 📡 Session & Activity Logging (Firestore)
+* 🖥️ Device Tracking (User Agent Detection)
+* 📈 Live Telemetry (Login, Session Events)
+* 🎯 Clean SaaS UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Frontend: React (Vite)
+* Backend: Firebase (Auth + Firestore)
+
+---
+
+## 📷 Screenshot
+<img width="1489" height="1095" alt="Screenshot 2026-04-20 161520" src="https://github.com/user-attachments/assets/50ef1d00-99ae-48c0-be80-cd56043a47da" />
+<img width="1919" height="1097" alt="Screenshot 2026-04-20 161501" src="https://github.com/user-attachments/assets/535e7e8a-5e14-4e3d-af0e-a7de5250db10" />
+<img width="1919" height="1139" alt="Screenshot 2026-04-20 161443" src="https://github.com/user-attachments/assets/5a70a0a3-4d3a-4410-ba82-2913c0988a52" />
+
+
+---
+
+## ⚙️ Setup
+
+```bash
+git clone https://github.com/priyanksavale05/secure-auth-dashboard.git
+cd secure-auth-dashboard
+npm install
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create `.env` file:
+
+```
+VITE_API_KEY=your_key
+VITE_AUTH_DOMAIN=your_domain
+VITE_PROJECT_ID=your_project
+```
+
+---
+
+## 📌 Future Improvements
+
+* 🔍 New Device Detection
+* 🛡 Suspicious Activity Alerts
+* 👨‍💼 Admin Panel
+* 📊 Analytics Dashboard
+
+---
+
+## 👨‍💻 Author
+
+Priyank Savale
