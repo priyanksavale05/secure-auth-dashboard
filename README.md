@@ -7,7 +7,7 @@ This project simulates a real-world identity system with **real-time session tra
 
 ## 🌐 Live Demo
 
-👉 https://your-vercel-link.vercel.app
+👉 secure-auth-dashboard-gules.vercel.app
 
 ---
 
